@@ -17,8 +17,8 @@ const QuickSummary = () => {
         textures that are sure to leave a lasting impression. The Limbe Botanic
         Garden is not just a botanical garden, but also an important
         conservation site. Many of the plant species found here are being
-        carefully preserved, and visitors can learn about the garden's efforts
-        to protect these species from extinction. The garden also offers
+        carefully preserved, and visitors can learn about the garden&apos;s
+        efforts to protect these species from extinction. The garden also offers
         visitors the opportunity to learn about the local culture, as it
         features several traditional Cameroonian structures, including a bamboo
         house and a traditional palm-thatched hut. Furthermore, the garden is a
@@ -27,8 +27,8 @@ const QuickSummary = () => {
         nature lovers who wish to enjoy a peaceful and scenic environment while
         learning about the incredible diversity of plant life found in Cameroon
         and beyond. In conclusion, the Limbe Botanic Garden is a fascinating and
-        beautiful destination that should be at the top of any traveler's list
-        while exploring Cameroon.
+        beautiful destination that should be at the top of any traveler&apos;s
+        list while exploring Cameroon.
         <div className="text-black md:text-primary-light text-center text-sm md:text-2xl mt-5 mb-2 md:mt-auto md:mb-auto ml-2 mr-2"></div>
       </div>
     </div>
