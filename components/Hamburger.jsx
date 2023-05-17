@@ -4,6 +4,7 @@ import { menuItems } from "../constants/menuItems";
 import Link from "next/link";
 
 // TODO: Handle Click outside of Hamburger
+
 const Hamburger = () => {
   console.log(menuItems[0].title, menuItems[1].title);
   return (

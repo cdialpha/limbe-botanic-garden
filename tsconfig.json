@@ -26,7 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "utils/motion.js"
+    "utils/motion.js",
+    "app/plan/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
