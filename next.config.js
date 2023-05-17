@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const repo = "african_women_dmv";
+const repo = "limbe-botanic-garden";
 const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
 
