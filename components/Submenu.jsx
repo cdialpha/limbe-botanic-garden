@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Submenu = ({ parent, items }) => {
-  console.log(parent);
+  console.log("parent: ", parent, "\n", "items: ", items);
   return (
     <div
       className="z-50 bg-white border-2 border-black w-screen right-0 top-20 fixed "
@@ -10,7 +10,11 @@ const Submenu = ({ parent, items }) => {
     >
       {items.map((item, index) => (
         <div className="text-center bg-slate-100 mt-2 mb-2" key={item.title}>
-          <Link href={item.url} className="hover:text-primary">
+          <Link
+            href={item.url}
+            className="hover:text-primary"
+            data-item={item.title}
+          >
             {item.title}
           </Link>
         </div>

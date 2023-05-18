@@ -1,12 +1,8 @@
 export const menuItems = [
   {
-    title: "About",
+    title: "General Information",
     children: [
-      { title: "History", url: "/history" },
-      {
-        title: "Staff",
-        url: "/staff",
-      },
+      { title: "About Us", url: "/about-us" },
       {
         title: "Community Outreach",
         url: "/community-outreach",
@@ -19,22 +15,22 @@ export const menuItems = [
         title: "FAQ",
         url: "/faq",
       },
+      {
+        title: "Support",
+        url: "/support",
+      },
     ],
   },
   {
     title: "Visit",
     children: [
       {
-        title: "Plan Your Trip",
+        title: "Plan Your Visit",
         url: "/plan",
       },
       {
-        title: "Admission",
-        url: "/admission",
-      },
-      {
         title: "Public & Private Events",
-        url: "/tours",
+        url: "/events",
       },
       {
         title: "Map",
@@ -50,25 +46,8 @@ export const menuItems = [
         url: "/blog",
       },
       {
-        title: "Plant Catalog",
-        url: "/plant-catalog",
-      },
-      {
-        title: "Cameroon Ecology",
+        title: "Ecology & Plants",
         url: "/ecology",
-      },
-    ],
-  },
-  {
-    title: "Support",
-    children: [
-      {
-        title: "Become a Member",
-        url: "/membership",
-      },
-      {
-        title: "Donate",
-        url: "/donate",
       },
     ],
   },
