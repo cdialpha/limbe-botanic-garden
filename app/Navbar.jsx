@@ -92,10 +92,9 @@ const Navbar = () => {
         ) : (
           <div className="flex mt-auto mb-auto  justify-between text-black font-extrabold">
             {menuItems.map((navItem, index) => (
-              <div className="flex mr-5 cursor-pointer">
+              <div className="flex mr-5 cursor-pointer" key={index}>
                 <div
                   // ref={() => (menuRef.current[index] = navItem.title)}
-                  key={index}
                   data-item={navItem.title}
                   className={`${
                     currentMenu == navItem.title

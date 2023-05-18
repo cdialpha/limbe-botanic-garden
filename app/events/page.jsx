@@ -15,8 +15,8 @@ const page = () => {
         </h1>
         <p className="text-lg mb-8">
           Experience the beauty of our botanical garden by scheduling private
-          events and group tours. Below, you'll find information about admission
-          prices for these special experiences.
+          events and group tours. Below, you&apos;ll find information about
+          admission prices for these special experiences.
         </p>
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-white rounded-lg overflow-hidden shadow-md p-6">

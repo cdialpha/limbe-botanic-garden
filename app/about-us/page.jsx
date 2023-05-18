@@ -42,7 +42,7 @@ const page = () => {
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
           <p className="mb-8">
             If you have any questions or would like more information, please
-            don't hesitate to contact us. We'd be happy to assist you.
+            don&apos;t hesitate to contact us. We&apos;d be happy to assist you.
           </p>
           <p className="text-lg font-bold">Phone: (123) 456-7890</p>
           <p className="text-lg font-bold">Email: info@botanicalgarden.com</p>
