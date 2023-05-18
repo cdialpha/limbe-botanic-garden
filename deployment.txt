@@ -13,3 +13,14 @@
 (4) Add workflow.yaml in .github folder 
     Github provides NextJS template 
     or build your own. 
+
+
+(5) Diagnosing 
+    - make sure to lint everything 
+    - might need to delete 
+    - was getting an error (cannot find "/" route)
+        followed this forum https://github.com/vercel/next.js/issues/44002 
+        suggested to remove "next export" from scripts 
+        run npm i next@latest react@latest react-dom@latest eslint-config-next@latest
+    
+    
