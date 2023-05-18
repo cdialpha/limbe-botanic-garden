@@ -2,11 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1>Plan your trip</h1>
-      <h1> Admission </h1>
-      <h1>Nearby Accomodations</h1>
-      <h1>Accessibility</h1>
+    <div className="relative top-[80px] pt-5">
       <div className="bg-gray-100 min-h-screen">
         <div className="container mx-auto py-12">
           <h1 className="text-3xl font-bold mb-6">Plan Your Visit</h1>
