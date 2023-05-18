@@ -66,22 +66,20 @@ const Navbar = () => {
       <div className="h-20 flex justify-between">
         <div className="mt-auto mb-auto">
           <div className="">
-            <Link href={"/"}>
-              <div className="flex ml-5 ">
-                <div className="md:mr-2 min-w-20">
-                  <Image
-                    src={logo}
-                    alt="logo"
-                    height={50}
-                    width={60}
-                    className="mt-auto mb-auto"
-                  />
-                </div>
-                <h1 className="rubik font-bold text-xl">
-                  limbe botanic gardens
-                </h1>
+            {/* <Link href={"/"}> */}
+            <div className="flex ml-5 ">
+              <div className="md:mr-2 min-w-20">
+                <Image
+                  src={logo}
+                  alt="logo"
+                  height={50}
+                  width={60}
+                  className="mt-auto mb-auto"
+                />
               </div>
-            </Link>
+              <h1 className="rubik font-bold text-xl">limbe botanic gardens</h1>
+            </div>
+            {/* </Link> */}
           </div>
         </div>
         {isLaptop ? (

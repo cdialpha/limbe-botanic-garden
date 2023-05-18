@@ -9,8 +9,7 @@
 
 (3) Add Custom Domain 
     www.limbebotanicgarden.com 
-    # for some reason, am getting an unsuccessful DNS check. 
-
-(3) Add workflow.yaml in .github folder 
+    
+(4) Add workflow.yaml in .github folder 
     Github provides NextJS template 
     or build your own. 
